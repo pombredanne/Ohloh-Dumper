@@ -1,0 +1,15 @@
+REQUIREMENTS:
+This script is written in PHP, so it requires a PHP interpreter to run it.
+
+USAGE:
+1. Edit "ohdump.php", replace $project_list with the list of projects you want to analyze. Replace $apikey with your own free API Key requested from Ohloh.
+2. Set CHMOD 777 on "data" directory.
+3a. Run it from the command line:
+cd Ohloh-Dumper
+php ohdump.php
+3b. Run it from a web server:
+http://localhost/Ohloh-Dumper/ohdump.php
+4. Grab the files from the "data" subfolder and have fun with your favorite data analysis tool!
+
+CREDITS:
+This script uses Ohloh Client API class by Paul Scott <pscott@uwc.ac.za>
